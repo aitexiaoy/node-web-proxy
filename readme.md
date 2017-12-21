@@ -4,9 +4,6 @@
 npm install
 npm run dev
 
-
- 项目中采用了pm2运行项目,也可以采用pm2启动项目
- 运行方式：pm2 start index.js --watch
 ```
 
 ### 2017-12-18
