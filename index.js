@@ -33,6 +33,6 @@ app.get('/index', function (req, res, next) {        //主页面，可以添加�
     res.sendfile('./static/index.html');
 })
 
-app.listen(3077);                                    //开启端口
+app.listen(13077);                                    //开启端口
 
 console.log('start success');
