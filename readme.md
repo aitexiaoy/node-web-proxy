@@ -1,4 +1,4 @@
-## web开发代理server
+## 基于express的Node代理服务器
 
 ```
 npm install
@@ -6,10 +6,7 @@ npm run dev
 
 ```
 
-### 2017-12-18
-```
- 1.创建工程，实现代理。
- 2.静态代码存放在static中,可自由设置
- 3.在接口请求的时候在接口地址前加上‘/api’
-```
+## 使用说明
+在proxy-config.js中配置相关代理
+相关配置说明参考:http-proxy-middleware
 
