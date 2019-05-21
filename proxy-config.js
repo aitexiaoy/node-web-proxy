@@ -2,19 +2,8 @@ module.exports = new Map([
   [
     ["/tuning", "/litemind", "/hippo"],
     {
-      target: "http://fe.mlamp.cn:3313/"
-    }
-  ],
-  [
-    "/schema",
-    {
-      target: "http://fe.mlamp.cn:3313/"
-    }
-  ],
-  [
-    "/translate",
-    {
-      target: "http://172.17.1.30:3252/"
+      target: "http://172.21.28.13:8081",
+      changeOrigin:true,
     }
   ]
 ]);
